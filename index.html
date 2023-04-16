@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="/app.js" defer></script>
+
+</head>
+
+<body>
+    <header id="header">
+        <div>
+            <h1 id="rotate">V</h1>
+            <h1>Miloa</h1>
+        </div>
+        <div id="header-div">
+            <ul>
+                <li><a style="color: blue; font-weight: bold;" href="">Search Nakuri</a></li>
+                <li><a href="">Company Review</a></li>
+                <li><a href="">Find Review</a></li>
+            </ul>
+        </div>
+
+        <div id="profile">
+            <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+                </svg>
+            </div>
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                </svg>
+
+            </div>
+            <div id="box"></div>
+            <img src="https://raw.githubusercontent.com/namankr21/UI_Website/main/author.jpeg" alt="">
+            <span>Vishal</span>
+        </div>
+    </header>
+    <section id="min-header">
+        <ul style="width: 100%;display: flex;justify-content: space-between;">
+            <li style="display: flex;">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+
+                </div>
+                <div style="padding: 10px; border-radius: 5px;display: flex; border: 1px solid rgb(69, 69, 69);">
+                    Product Designer
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+
+                </div>
+                <div style="padding: 10px; border-radius: 5px;display: flex; border: 1px solid rgb(69, 69, 69);">
+                    UI Designer
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M9.75 9.75l4.5 4.5m0-4.5l-4.5 4.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+
+                </div>
+            </li>
+            <li style="display: flex;">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                    </svg>
+
+                </div>
+                <div>
+                    New Delhi,India
+                </div>
+            </li>
+            <li style="display: flex;">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 00.75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 00-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0112 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 01-.673-.38m0 0A2.18 2.18 0 013 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 013.413-.387m7.5 0V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25v.894m7.5 0a48.667 48.667 0 00-7.5 0M12 12.75h.008v.008H12v-.008z" />
+                    </svg>
+
+                </div>
+                <input placeholder="Job Type" style="width: 100%;" type="text">
+            </li>
+            <li style="display: flex;width: max-content;">
+                <div class="icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </div>
+                <input placeholder="Salary Range" style="width: 60%;" type="text">
+                <a style="width: 40%;background-color: blue;padding:10px 10px;color: white;" href="">Find Job</a>
+            </li>
+        </ul>
+    </section>
+    <main id="main">
+        <section style="width:min-content">
+            <div id="alert">
+                <h3>Create Job Alert</h3>
+                <p style="margin-top: 2px;">Create Job Alert and Never miss a job</p>
+                <input style="padding: 5px;margin-bottom: 10px; border-radius: 5px;" type="text"
+                    placeholder="Enter Job Keyword">
+                <a>Create Job Alert</a>
+            </div>
+            <div id="main-ch">
+                <section class="main-ch1">
+                    <h4>Type of Employment</h4>
+                    <ul>
+                        <li>
+                            <div>
+                                <input class="l" type="checkbox">
+                                <label for="">Full Time Jobs</label>
+                            </div>
+                            <span >56</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input class="l" type="checkbox">
+                                <label for="">Part Time Jobs</label>
+                            </div>
+                            <span >43</span>
+                        </li>
+                        <li>
+                            <div><input class="l" type="checkbox">
+                                <label for="">Remote Jobs</label>
+                            </div>
+                            <span >24</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input class="l" type="checkbox">
+                                <label for="">Intership Jobs</label>
+                            </div>
+                            <span >27</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input class="l" type="checkbox">
+                                <label for="">Contact</label>
+                            </div>
+                            <span >76</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input  type="checkbox">
+                                <label for="">Traning Jobs</label>
+                            </div>
+                            <span >28</span>
+                        </li>
+                    </ul>
+                </section>
+                <section class="main-ch1">
+                    <h4>Seniority Level</h4>
+                    <ul>
+                        <li>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">Student Levels</label>
+                            </div>
+                            <span >98</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">Entry Level</label>
+                            </div>
+                            <span >44</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">Mid Level</label>
+                            </div>
+                            <span >35</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">Senior Level</label>
+                            </div>
+                            <span >29</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">Director</label>
+                            </div>
+                            <span >25</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">VP or Above</label>
+                            </div>
+                            <span >56</span>
+                        </li>
+                    </ul>
+                </section>
+                <section class="main-ch1">
+                    <h4>Salary Range</h4>
+                    <ul>
+                        <li>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">$700-$1000</label>
+                            </div>
+                            <span >48</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">$1000-$1200</label>
+                            </div>
+                            <span >67</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">$1200-$1400</label>
+                            </div>
+                            <span >24</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">$1500-$1800</label>
+                            </div>
+                            <span >56</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">$2000-$3000</label>
+                            </div>
+                            <span >27</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">$3000-$4000</label>
+                            </div>
+                            <span >56</span>
+                        </li>
+                        <li>
+                            <div>
+                                <input type="checkbox">
+                                <label for="">$4000-$5000</label>
+                            </div>
+                            <span>76</span>
+                        </li>
+
+                    </ul>
+                </section>
+            </div>
+        </section>
+        <section id="grid">
+            <div id="grid-header">
+                <h1>Showing 46 Jobs</h1>
+                <span>Sort by: NewestPost</span>
+            </div>
+            <section>
+                <ul class="h">
+                    <li class="hover">
+                        <div class="gridview">
+                            <img src="https://www.logolynx.com/images/logolynx/d2/d2f710ced4d06a94cd54d35401f5e609.png"
+                                alt="">
+                            <h2>UI/UX designer</h2>
+                            <p class="para-hide">The user Experince Designer position exists to create compelling and
+                                digital user
+                                experinc through excellent degien....</p>
+                            <nav>
+                                <a href="">Full Time</a>
+                                <a href="">Min. 1 Year</a>
+                                <a href="">Senior Level</a>
+                            </nav>
+                            <div class="apply">
+                                <a class="blue" href="#">Apply Now</a>
+                                <a href="">Message</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hover">
+                        <div class="gridview">
+                            <img src="https://raw.githubusercontent.com/namankr21/UI_Website/main/author.jpeg" alt="">
+                            <h2>Sr. Product Designer</h2>
+                            <p class="para-hide">The user Experince Designer position exists to create compelling and
+                                digital user
+                                experinc through excellent degien....</p>
+                            <nav>
+                                <a href="">Full Time</a>
+                                <a href="">Min. 1 Year</a>
+                                <a href="">Senior Level</a>
+                            </nav>
+                            <div class="apply">
+                                <a class="blue" href="#">Apply Now</a>
+                                <a href="">Message</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hover">
+                        <div class="gridview">
+                            <img src="data:image/png;base64,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"
+                                alt="">
+                            <h2>User Experince Designer</h2>
+                            <p class="para-hide">The user Experince Designer position exists to create compelling and
+                                digital user
+                                experinc through excellent degien....</p>
+                            <nav>
+                                <a href="">Full Time</a>
+                                <a href="">Min. 1 Year</a>
+                                <a href="">Senior Level</a>
+                            </nav>
+                            <div class="apply">
+                                <a class="blue" href="#">Apply Now</a>
+                                <a href="">Message</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hover">
+                        <div class="gridview">
+                            <img src="data:image/jpeg;base64,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"
+                                alt="">
+                            <h2>Product designer</h2>
+                            <p class="para-hide">The user Experince Designer position exists to create compelling and
+                                digital user
+                                experinc through excellent degien....</p>
+                            <nav>
+                                <a href="">Full Time</a>
+                                <a href="">Min. 1 Year</a>
+                                <a href="">Senior Level</a>
+                            </nav>
+                            <div class="apply">
+                                <a class="blue" href="#">Apply Now</a>
+                                <a href="">Message</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hover">
+                        <div class="gridview">
+                            <img src="data:image/png;base64,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"
+                                alt="">
+                            <h2>UI/UX designer</h2>
+                            <p class="para-hide">The user Experince Designer position exists to create compelling and
+                                digital user
+                                experinc through excellent degien....</p>
+                            <nav>
+                                <a href="">Full Time</a>
+                                <a href="">Min. 1 Year</a>
+                                <a href="">Senior Level</a>
+                            </nav>
+                            <div class="apply">
+                                <a class="blue" href="#">Apply Now</a>
+                                <a href="">Message</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hover">
+                        <div class="gridview">
+                            <img src="https://cdn.mindmajix.com/courses/ui-developer-training.png" alt="">
+                            <h2>UI Develper</h2>
+                            <p class="para-hide">The user Experince Designer position exists to create compelling and
+                                digital user
+                                experinc through excellent degien....</p>
+                            <nav>
+                                <a href="">Full Time</a>
+                                <a href="">Min. 1 Year</a>
+                                <a href="">Senior Level</a>
+                            </nav>
+                            <div class="apply">
+                                <a class="blue" href="#">Apply Now</a>
+                                <a href="">Message</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hover">
+                        <div class="gridview">
+                            <img src="data:image/jpeg;base64,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"
+                                alt="">
+                            <h2>User Interface Designer</h2>
+                            <p class="para-hide">The user Experince Designer position exists to create compelling and
+                                digital user
+                                experinc through excellent degien....</p>
+                            <nav>
+                                <a href="">Full Time</a>
+                                <a href="">Min. 1 Year</a>
+                                <a href="">Senior Level</a>
+                            </nav>
+                            <div class="apply">
+                                <a class="blue" href="#">Apply Now</a>
+                                <a href="">Message</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hover">
+                        <div class="gridview">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZbZLgch4_Xpdk3Abcqwx3K0GG_JecK04v3g&usqp=CAU"
+                                alt="">
+                            <h2>UI/UX designer</h2>
+                            <p class="para-hide">The user Experince Designer position exists to create compelling and
+                                digital user
+                                experinc through excellent degien....</p>
+                            <nav>
+                                <a href="">Full Time</a>
+                                <a href="">Min. 1 Year</a>
+                                <a href="">Senior Level</a>
+                            </nav>
+                            <div class="apply">
+                                <a class="blue" href="#">Apply Now</a>
+                                <a href="">Message</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hover">
+                        <div class="gridview">
+                            <img src="data:image/png;base64,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"
+                                alt="">
+                            <h2>UX Designer</h2>
+                            <p class="para-hide">The user Experince Designer position exists to create compelling and
+                                digital user
+                                experinc through excellent degien....</p>
+                            <nav>
+                                <a href="">Full Time</a>
+                                <a href="">Min. 1 Year</a>
+                                <a href="">Senior Level</a>
+                            </nav>
+                            <div class="apply">
+                                <a class="blue" href="#">Apply Now</a>
+                                <a href="">Message</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section id="hide">
+                <div>
+                    <img class="i"
+                        src="data:image/jpeg;base64,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"
+                        alt="">
+                    <img class="j"
+                        src="https://www.logolynx.com/images/logolynx/d2/d2f710ced4d06a94cd54d35401f5e609.png" alt="">
+                    <div class="inner">
+                        <div>
+                            <h1>UX Designer</h1>
+                        </div>
+                        <div>
+                            <table>
+                                <tr>
+                                    <th scope="col">Experince</th>
+                                    <th scope="col">Work Level</th>
+                                    <th scope="col">Employee Type</th>
+                                    <th scope="col">Other Salary</th>
+                                </tr>
+                                <tr>
+                                    <td>Minimum 1 Year</td>
+                                    <td>Senior Level</td>
+                                    <td>Full Time Jobs</td>
+                                    <td>$2115.0 / Month</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <h2>Overview</h2>
+                        <p id="overview">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione iste deserunt
+                            magni quibusdam, quasi pariatur numquam. Temporibus nemo ut repellat tempore maxime rerum,
+                            mollitia in recusandae delectus cupiditate excepturi earum.
+                            Ab magnam minus totam illum animi voluptatibus ipsa doloremque aut repellat, voluptate vero
+                            sint excepturi ad expedita molestiae deserunt saepe. Ex quaerat, magni pariatur ut
+                            exercitationem tempora temporibus. Eum, tenetur.
+                            Cupiditate omnis possimus voluptates blanditiis tempora doloribus quia officiis nulla enim
+                            suscipit reiciendis, harum eum ad totam ut, pariatur, ex consectetur consequuntur beatae.
+                            Numquam repellendus nisi possimus sequi, similique at.
+                            Cumque quisquam assumenda exercitationem! Possimus quidem eius accusamus necessitatibus
+                            quam! Aliquid quas, atque repellendus quae odit nulla dignissimos nisi ipsum nostrum beatae
+                            ex quisquam cupiditate sint mollitia pariatur fugit at?</p>
+                        <h1>Job Description</h1>
+                        <div id="list">
+                            <ul>
+                                <li>3 + Year Working Experince</li>
+                                <li>A portfolio that highlight your approach to problem solving, as well as you skill in
+                                    UI.</li>
+                                <li>Experince conducting research and building out smooth flows.</li>
+                                <li>Excellent Communication skill with a well-defined design process.</li>
+                                <li>Familiarity with degien tools like Sketch and Figma</li>
+                                <li>Up-level our overall design and bring consistency to end-user facing properties.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+
+</html>
